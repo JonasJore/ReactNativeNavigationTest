@@ -1,5 +1,5 @@
 import { View, Button, Text } from 'react-native';
-import { useRandomQuote } from '../hooks/quotes';
+import { useRandomQuote } from '../hooks/useRandomQuote';
 
 function HomeScreen({ navigation }) {
     const { loading, data } = useRandomQuote('https://type.fit/api/quotes');
